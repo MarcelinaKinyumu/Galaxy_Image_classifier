@@ -25,14 +25,14 @@ st.markdown("### Galaxy Classification")
 
 # Hidden text that can be expanded to show explaination
 with st.expander("See explanation"):
-    st.markdown("Galaxies are mainly classified in two categories either as spirals or ellipticals based on their structure/morphology. The ... ")
+    st.markdown("Galaxies are mainly classified into two categories either as spirals or ellipticals based on their structure/morphology. The ... ")
     
 image = st.container()
 with image:
     #Create two columns
     col1, col2 = st.columns(2)
     
-    # Display cuctomer text depending on average polarity
+    # Display text
     with col1:
     	st.markdown("#### Spiral Galaxy")
     	st.markdown("The image shown below is a sample of a spiral galaxy")
